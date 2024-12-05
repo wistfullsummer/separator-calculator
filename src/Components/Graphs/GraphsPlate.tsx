@@ -72,7 +72,7 @@ const GraphsPlate = () => {
                     ))}
                 </select>
             </div>
-            {selectedVType === "Gas visconsity" && 
+            {selectedVType === "Z-factor" && 
             <>
                 <div className="mb-4">
                     <label className="block text-sm font-medium mb-2">Gas specific gravity</label>
@@ -89,12 +89,12 @@ const GraphsPlate = () => {
                 </div>
             </>}
 
-            {selectedVType === "Z-factor" && 
+            {selectedVType === "Gas visconsity" && 
             <>
                 <img src = {image} className="shadow-md rounded-lg"/>
             </>}
 
-            {selectedVType === "Gas visconsity" &&
+            {selectedVType === "Z-factor" &&
                 <img src = {selectedImage} className="shadow-md rounded-lg"/>
             }
         </div>
