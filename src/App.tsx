@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './App.css';
 import InputPlate from './Components/Input/InputPlate';
 import Header from './Components/Header';
-import OutputPlate from './Components/OutputPlate';
 import SolutionPlate from './Components/Solution/SolutionPlate';
 import { DataForTwoPhaseCalculation, TwoPhaseInputs } from './Components/Input/TwoPhaseInputPlate';
 import { DataForThreePhaseVerticalCalculation } from './Components/Input/ThreePhaseVerticalInputPlate';
 import { DataForThreePhaseHorizontalCalculation } from './Components/Input/ThreePhaseHorizontalInputPlate';
+import GraphsPlate from './Components/Graphs/GraphsPlate';
 
 function App() {
   const [selectedSeparator, setSelectedSeparator] = useState<string | null>(null);
@@ -26,7 +26,7 @@ function App() {
     <>
       <Header payload='Separator Calculator'/>
       <InputPlate onSeparatorChange={handleSeparatorChange} onInputSubmit={handleInputSubmit}/>
-      <OutputPlate/>
+      <GraphsPlate/>
       {(inputData?.selectedSeparator != null && inputData?.formInputs!=null) ? (
         <SolutionPlate inputData={inputData}/>
       ) : (
