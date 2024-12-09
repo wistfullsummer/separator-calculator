@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/separator-calculator/static/css/main.56f2bd37.css",
+    "main.js": "/separator-calculator/static/js/main.aa2cc591.js",
+    "static/js/453.e3bbd015.chunk.js": "/separator-calculator/static/js/453.e3bbd015.chunk.js",
+    "static/media/image.png": "/separator-calculator/static/media/image.4dc99681f7df202d9ed0.png",
+    "static/media/image9.png": "/separator-calculator/static/media/image9.acaca23a16acf543a425.png",
+    "static/media/image8.png": "/separator-calculator/static/media/image8.97ff9367f145d5ab914f.png",
+    "static/media/image65.png": "/separator-calculator/static/media/image65.44b5f18ef4091a1f0f44.png",
+    "static/media/image7.png": "/separator-calculator/static/media/image7.3ae7623160cdf4ab8445.png",
+    "static/media/image55.png": "/separator-calculator/static/media/image55.a33aea9755a13bbb635c.png",
+    "static/media/image6.png": "/separator-calculator/static/media/image6.4ba655d29d016b40c27a.png",
+    "index.html": "/separator-calculator/index.html",
+    "main.56f2bd37.css.map": "/separator-calculator/static/css/main.56f2bd37.css.map",
+    "main.aa2cc591.js.map": "/separator-calculator/static/js/main.aa2cc591.js.map",
+    "453.e3bbd015.chunk.js.map": "/separator-calculator/static/js/453.e3bbd015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56f2bd37.css",
+    "static/js/main.aa2cc591.js"
+  ]
+}
